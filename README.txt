@@ -8,7 +8,7 @@ Please do not change battle_runner.py unless you want to implement your own vers
 The constructor is an exception in that the data structure/s to use and the constructor itself can be written together.
 
 For person A, please write:
-parse_soldiers(), a method that will take in a file and parse the soldier's name and his/her health.
+parse_soldiers(), a method that will take in a file and parse the soldier's health.
 The file format will be like so:
 SoldierName{SPACE}Health{NEWLINE}SoldierName{SPACE}Health
 
@@ -21,7 +21,8 @@ gameover(), a method that will return True if the battle is complete
 For person B, please write:
 parse_skills(), a method that will take in a file and parse the skill name and the damage for that skill for a specific soldier.
 The file format will be like so:
-SkillNameForSoldier1{SPACE}SkillDamage;SkillNameForSoldier2{SPACE}SkillDamage
+Skill1NameForSoldier1{SPACE}SkillDamage;Skill2NameForSoldier1{SPACE}SkillDamage{NEWLINE}
+Skill1NameforSoldier2{SPACE}SkillDamage;Skill2NameForSoldier2{SPACE}SkillDamage{NEWLINE}
 
 process_random_attack(), a method that will simulate the damage exchange between the two soldiers
 
