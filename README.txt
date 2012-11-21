@@ -28,3 +28,5 @@ process_random_attack(), a method that will simulate the damage exchange between
 regenerate(), a method that will have the current soldier heal a given amount.  For now, make it a static value of 5.
 
 change_turns(), a method that will allow the next soldier to take his turn
+
+After you implement all of the methods with print statements to make your code actually output something, please tag and push.
