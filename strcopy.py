@@ -1,6 +1,9 @@
 def strlen(string):
   return len(string)
 
+def empty_list():
+  return []
+
 def strcopy(string):
   pass
 
