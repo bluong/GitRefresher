@@ -1,2 +1,2 @@
 if __name__ == '__main__':
-  print "This is not the version you want."
+  print "This is also not the version you want."
