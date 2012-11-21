@@ -7,6 +7,9 @@ def empty_list():
 def add_to_list(new_list, item):
   new_list.append(item)
   
+def get_n_item(list, index):
+  return list[index]
+  
 def array_range(string):
   return range(1, strlen(string))
 
