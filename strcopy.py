@@ -13,6 +13,9 @@ def array_range(string):
 def combine_array(arr):
   return ''.join(arr)
 
+def identity(item):
+  return item
+
 def strcopy(string):
   pass
 
