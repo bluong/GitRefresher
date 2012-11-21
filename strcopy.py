@@ -1,3 +1,6 @@
+def strlen(string):
+  return len(string)
+
 def strcopy(string):
   pass
 
