@@ -1,0 +1,2 @@
+Attack 10;Fireball 15;Misfire 7
+Attack 9;Blizzard 13;Gust 10

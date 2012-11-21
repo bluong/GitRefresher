@@ -1,6 +1,9 @@
 from battle import Battle
 import random
 
+SOLDIER_FILE = "soldiers.txt"
+SKILL_FILE = "skills.txt"
+
 class Soldier:
     def __init__(self, health, skill_dict):
         self.health = health
@@ -19,7 +22,7 @@ class Soldier:
         return self.health <= 0
   
 def battle_start():
-    skirmish = Battle(soldiers.txt)
+    skirmish = Battle(SOLDIER_FILE, SKILL_FILE)
     while (not skirmish.gameover()):
         battle.exchange_attacks()
   
