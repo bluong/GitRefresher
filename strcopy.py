@@ -4,6 +4,9 @@ def strlen(string):
 def empty_list():
   return []
 
+def add_to_list(new_list, item):
+  new_list.append(item)
+
 def strcopy(string):
   pass
 
