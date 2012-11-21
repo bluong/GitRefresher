@@ -6,6 +6,9 @@ def empty_list():
 
 def add_to_list(new_list, item):
   new_list.append(item)
+  
+def array_range(string):
+  return range(1, strlen(string))
 
 def strcopy(string):
   pass
