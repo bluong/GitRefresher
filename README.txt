@@ -5,6 +5,11 @@ First things first, you should have a file called battle.py to write this.
 Note this is not in the directory.  You have to add the file to the git repo yourself.
 Please do not change battle_runner.py unless you want to implement your own version.
 
+NOTE: As long as you abide by the framework, you have 100% flexibility over the implementation.
+There is no expected output by the program other than what is implied from the syntax/method descriptions.
+Please have fun and experiment with different ideas, possibly with one that's unique and an interesting endeavor.
+It would highly please me to see a project take off from this very simple framework.
+
 Please have a slight discussion on how the constructor/data structures will be set up.
 Also, have a single person write the constructor.
 
