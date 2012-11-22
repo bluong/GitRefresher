@@ -27,7 +27,7 @@ Skill1NameforSoldier2{SPACE}SkillDamage;Skill2NameForSoldier2{SPACE}SkillDamage
 
 process_random_attack(), a method that will simulate the damage exchange between the two soldiers
 
-heal_current(), a method that will have the current soldier heal a given amount with a certain probability.  For now, make it a static value of 5.
+heal_current_soldier(), a method that will have the current soldier heal a given amount with a certain probability.  For now, make it a static value of 5.
 
 change_turns(), a method that will allow the next soldier to take his turn
 
